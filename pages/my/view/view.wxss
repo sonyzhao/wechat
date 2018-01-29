@@ -1,0 +1,48 @@
+.titlestyle{
+  background-color: pink;
+  height: 500rpx;
+  margin: 10rpx;
+}
+.Head-part{
+  display: flex;
+  flex-direction: row;
+  margin-top: 50rpx; 
+  margin-left: 50rpx;
+  margin-bottom: 40rpx;
+}
+.titlestyle{
+  background-color: pink;
+  height: 500rpx;
+  width: 100%;
+  margin-right: 1rpx;
+}
+.title{
+  font-size: 20;
+}
+.information{
+   margin-top: 10rpx;
+}
+.incontent{
+  margin-left: 10rpx;
+  margin-right:5rpx;
+	background-color:yellow;
+	width:20%;
+	height: 90rpx;
+}
+.input{
+	margin-bottom: 20rpx;
+	display: flex;
+	background-color: #ffffff;
+	height: 75rpx;
+}
+.input-table{
+  display: flex;
+  flex-direction: row;
+  margin: 8rpx;
+}
+.input-content{
+	margin-left: 10rpx;
+	background-color:yellow;
+	width:73%;
+	height: 90rpx;
+}

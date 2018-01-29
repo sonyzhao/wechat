@@ -1,0 +1,4 @@
+<view class="null">
+   <image class="nullpicture" src="../../../images/女孩.png"></image>
+   <text>你搜索的内容为空</text>
+</view>

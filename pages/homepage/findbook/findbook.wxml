@@ -1,0 +1,37 @@
+<view>
+   <view class="top-picture">
+      <image src=""></image>
+   </view>  
+   <view class="content">
+      <view class="contentstyle">
+         <text class="bookname">xiaozhu:</text>
+         <text class="haomuch">0.5yuan/tian</text>
+      </view>
+
+
+      <view class="line"></view>
+
+
+     <view class="content-one">
+        <text class="people">people:</text>
+        <text class="peoplecon">peoplecon</text>
+     </view>
+
+     <view class="line"></view>
+
+
+     <view class="content-two">
+        <text class="chubanshe">chubanshe:</text>
+        <text class="chubanshecon">chubanshecon</text>
+     </view>
+ <view class="line"></view>
+
+
+     <view class="content-three">
+        <text class="style">style:</text>
+        <text class="stylecon">stylecon</text>
+     </view>
+     <view class="line"></view>
+   </view>
+   <view class="text-content">content</view>
+</view>

@@ -1,0 +1,5 @@
+<view class="fenlei">
+  <text class="null" bindtap="nullPage">搜索不存在</text>
+  <text class="findbook" bindtap="findPage">搜索显示结果:输入具体书，可以直接显示书籍信息</text>
+  <text class="list" bindtap="listPage">搜索列表：输入了关键字，找到同系列的书籍，所以用列表</text>
+</view>

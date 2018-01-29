@@ -1,0 +1,105 @@
+.head{
+  display:flex;
+  flex-direction:row;
+}
+.icon-search{
+  margin-left: 100rpx;
+}
+.page-section-title{
+  padding: 0;
+}
+.swiper-item{
+  display: block;
+  height: 150px;
+}
+.input-content{
+  width: 370rpx;
+  padding-left: 20rpx; 
+}
+.roll-content{
+  margin: 10px;
+}
+.slide-image{
+  width: 100%;
+  height: 100%;
+}
+.competitive{
+  border-left-width: 10rpx;
+  border-left-style: solid;
+  border-left-color: limegreen;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin:5rpx;
+}
+.text-all{
+  color: green;
+  font-size: 12px;
+}
+.introduct-content{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.content-item{
+  height:250rpx;
+  width: 45%;
+  background-color: yellow;
+  margin: 10rpx;
+  position: relative;
+}
+.content-item image{
+  height: 100%;
+  width: 100%;
+}
+.content-item-text{
+  position: absolute;
+  bottom: 0px;
+  color: white;
+  font-size: 10px;
+  background: linear-gradient(bottom,rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0));
+  height: 125rpx;
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-bottom: 1%;
+}
+.list-item{
+  height: 700rpx;
+}
+.list-item-image{
+  display: flex;
+  flex-direction: row;
+  height: 400rpx;
+  width: 90%;
+  background-color: pink;
+  margin: 40rpx; 
+  position: relative;
+}
+.list-item-image-itm{
+ height: 100%;
+  width: 100%;
+}
+.avater{
+  height: 100rpx;
+  width: 100rpx;
+  border-radius: 50%;
+  position: absolute;
+  bottom: -50rpx;
+  right: 100rpx;
+}
+.list-item-text{
+  height: 250rpx;
+  width: 96%;
+  padding-left:2%;
+  padding-right: 2%; 
+}
+.list-item-text-content{
+  font-size: 12px;
+  color: #999;
+  margin-top: 20rpx;
+}

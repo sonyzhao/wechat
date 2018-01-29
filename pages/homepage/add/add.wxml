@@ -1,0 +1,102 @@
+<view class="shuangzix">
+  <view class="head">
+     <icon class="icon-search" type="search" size="25"></icon>
+     <input class="input-content" type="text"placeholder="请输入要查询的书名"/>
+     <button class="find-button" size="mini" bindtap="findClick">搜索</button>
+  </view>
+  <view class="roll-content">
+    <swiper indicator-dots="false" autoplay="true" interval="3000" duration="1000">
+        <block wx:for="{{imgUrls}}">
+           <swiper-item>
+              <image src="{{item}}" class="slide-image" />
+           </swiper-item>
+        </block>
+    </swiper>
+  </view>
+  <view class="competitive">
+      <text>精品推荐</text>
+      <text class="text-all"bindtap="LookAll">查看全部</text>  
+  </view>
+  <view class="introduct-content">
+      <view class="content-item">
+        <image src=""/>
+        <view class="content-item-text">
+           <text>这里是标题</text>
+        </view>
+      </view>
+      <view class="content-item">
+        <image src=""/>
+         <view class="content-item-text">
+           <text>这里是标题</text>
+        </view>
+      </view>
+      <view class="content-item">
+        <image src=""/>
+         <view class="content-item-text">
+           <text>这里是标题</text>
+        </view>
+      </view>
+      <view class="content-item">
+        <image src=""/>
+         <view class="content-item-text">
+           <text>这里是标题</text>
+        </view>
+      </view>
+  </view>
+  <view class="competitive">
+      <text>最新上架</text>
+  </view>
+
+  <view class="list-item">
+
+      <view class="list-item-image">
+        <image src="../../../images/11.png"class="list-item-image-itm"></image>
+        <image src="../../../images/1.png"class="avater"></image>
+      </view>
+      <view class="list-item-text">
+         <view class="list-item-text-title">彼得兔的故事</view>
+         <view class="list-item-text-content">“彼得兔”是欧美图画故事书的开山之作，一个世纪以来畅销不衰，
+         构筑了世界童书史上的世纪经典。本套“比得兔典藏全集”的设计完全从孩子的角度出发：
+         文字流畅而富于童趣，是目前最适合孩子大声朗读和妈妈讲故事的版本，
+         其中收录的大量童谣朗朗上口，相信一定会赢得孩子的喜爱.</view>
+      </view>
+
+      <view class="list-item-image">
+        <image src="../../../images/2.png"class="list-item-image-itm"></image>
+        <image src="../../../images/6.png"class="avater"></image>
+      </view>
+      <view class="list-item-text">
+         <view class="list-item-text-title">小猪佩奇</view>
+         <view class="list-item-text-content">
+        小猪佩奇是一只 非常可爱的小粉红猪，她与爸爸、妈妈以及弟弟乔治快乐地住在一起，佩奇最喜欢做的事情是玩游戏、
+        打扮得漂漂亮亮的、度假，以及在小泥坑里快乐地跳上跳下，除了这些，她还喜欢到处探险，虽然有些时候会遇到一
+        些小状况，但总可以化险为夷 ，而且都会带给大家意外的惊喜。</view>
+      </view>
+
+      <view class="list-item-image">
+        <image src="../../../images/4.png"class="list-item-image-itm"></image>
+        <image src="../../../images/5.png"class="avater"></image>
+      </view>
+      <view class="list-item-text">
+         <view class="list-item-text-title">宫西达也恐龙绘本</view>
+         <view class="list-item-text-content">宫西达也是一位很会讲故事的图画书作家，这本书有
+         一个凶猛冷血的家伙——霸王龙，他们欺负弱小，是唯我独尊的独行侠，可这只是故事的开头，
+         随着故事的发展，这个大家伙变得温柔起来，那些弱小恐龙的善良和真诚打动了霸王龙，他对这来之不易的温暖倍感珍
+         惜小心翼翼地呵护，强大凶悍的外表和温柔善良的内心形成了鲜明对比。</view>
+      </view>
+
+      <view class="list-item-image">
+        <image src="../../../images/7.png"class="list-item-image-itm"></image>
+        <image src="../../../images/8.png"class="avater"></image>
+      </view>
+      <view class="list-item-text">
+         <view class="list-item-text-title">巴巴爸爸科学故事</view>
+         <view class="list-item-text-content">"巴巴爸爸科学故事“是专为3-6岁幼儿编写的科学图书故事
+         ，该系列巧妙运用“巴巴爸爸”一家无所不能的变形特点，将读者带进神奇有趣的阅读情境，通过一家人在农场、森林、
+         高山......等地方发生的小故事，深入浅出地讲了水、牛奶、垃圾、蔬菜、能源、太空、野外探险等相关知识。</view>
+      </view>
+  
+  
+  </view>
+
+</view>

@@ -1,0 +1,47 @@
+.top-picture{
+  margin: 8px;
+  background-color: pink;
+}
+.line{
+  height: 1px;
+  background: #aaa;
+  margin: 10px;
+}
+.content{
+  margin: 10px;
+}
+.contentstyle{
+  display: flex;
+  flex-direction: row;
+}
+.bookname{
+  padding-left: 20px;
+  padding-right: 10px;
+}
+.haomuch{
+  color: rebeccapurple;
+}
+.content-one{
+  padding-left: 20px;
+}
+.content-two{
+  padding-left: 20px;
+}
+.content-three{
+  padding-left: 20px;
+}
+.people{
+   padding-right: 10px;
+}
+.chubanshe{
+  padding-right: 10px;
+}
+.style{
+  padding-right: 10px;
+}
+.text-content{
+   font-size: 12px;
+  color: #999;
+  margin-top: 20rpx;
+  padding-left: 20px;
+}

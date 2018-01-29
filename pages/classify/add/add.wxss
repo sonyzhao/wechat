@@ -1,0 +1,48 @@
+/* pages/classify/add/add.wxss */
+.show{
+  margin: 15rpx;
+  background-color: pink;
+  height: 300rpx;
+}
+.classify-age{
+  margin: 15rpx;
+  background-color: peachpuff;
+  height: 350rpx;
+}
+.content-tex{
+  font-size: 50rpx;
+  font-weight: 400;
+  display: flex;
+  flex-direction: row;
+  align-items: center; 
+  margin-top: 20rpx;
+  margin-left: 170rpx;
+  margin-bottom: 10rpx;
+}
+.buttonstyle{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.age-but{
+  width: 90px;
+  height: 40px;
+  margin: 10px;
+}
+.classify-theme{
+  margin: 15rpx;
+  background-color: powderblue;
+  height: 500rpx;
+}
+.tbuttonstyle{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.theme-but{
+   width: 90px;
+   height: 50px;
+   margin: 10px;
+}

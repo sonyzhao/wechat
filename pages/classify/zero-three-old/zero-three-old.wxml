@@ -1,0 +1,13 @@
+<view>
+  <text class="text">主题1类</text>
+   <view class="text-all">
+       <view class="book-picture"></view>
+       <view class="book-picture"></view>
+       <view class="book-picture"></view>
+       <view class="book-picture"></view>
+       <view class="book-picture"></view>
+       <view class="book-picture"></view>
+       <view class="book-picture"></view>
+       <view class="book-picture"></view>
+  </view>
+</view>

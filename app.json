@@ -1,0 +1,54 @@
+{
+  "pages": [
+    "pages/homepage/add/add",
+    "pages/homepage/competitive/competitive",
+    "pages/homepage/findbook/findbook",
+    "pages/homepage/null/null",
+    "pages/homepage/fenlei/fenlei",
+    "pages/homepage/list/list",
+    "pages/classify/add/add",
+    "pages/classify/zero-three-old/zero-three-old",
+    "pages/online-reading/view/view",
+    "pages/my/view/view",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "library",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#000",
+    "selectedColor": "#56abe4",
+    "backgroundColor": "#fff",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/homepage/add/add",
+        "text": "首页",
+        "iconPath": "images/首页.png",
+        "selectedIconPath": "images/emoji-1.png"
+      },
+      {
+        "pagePath": "pages/classify/add/add",
+        "text": "分类",
+        "iconPath": "images/类目 品类 分类 类别.png",
+        "selectedIconPath": "images/emoji-1.png"
+      },
+      {
+        "pagePath": "pages/online-reading/view/view",
+        "text": "阅读",
+        "iconPath": "images/activity.png",
+        "selectedIconPath": "images/emoji-1.png"
+      },
+      {
+        "pagePath": "pages/my/view/view",
+        "text": "我的",
+        "iconPath": "images/我的.png",
+        "selectedIconPath": "images/emoji-1.png"
+      }
+    ]
+  }
+}

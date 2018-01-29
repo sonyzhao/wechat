@@ -1,0 +1,33 @@
+<!--pages/classify/add/add.wxml-->
+<view>
+  <view class="show">
+     <text>粉色部分为装饰，可插入图画，按年龄、主题分类，暂定,按主题分类主题未定，用数字表示，数量均可添加</text>
+  </view>
+  <view class="classify-content">
+    <view class="classify-age">
+       <text class="content-tex">按年龄分类</text>
+       <view class="buttonstyle">
+          <button class="age-but"bindtap="zerofind">0-3</button>
+          <button class="age-but"bindtap="threefind">3-6</button>
+          <button class="age-but">7-9</button>
+          <button class="age-but">10-12</button>
+          <button class="age-but">小学</button>
+          <button class="age-but">成人</button>
+      </view>
+    </view>
+    <view class="classify-theme">
+       <text class="content-tex">按主题分类</text>
+       <view class="tbuttonstyle">
+          <button class="theme-but"bindtap="onebook">1</button>
+          <button class="theme-but">2</button>
+          <button class="theme-but">3</button>
+          <button class="theme-but">4</button>
+          <button class="theme-but">5</button>
+          <button class="theme-but">6</button>
+          <button class="theme-but">7</button>
+          <button class="theme-but">8</button>
+          <button class="theme-but">9</button>
+       </view>
+    </view>
+  </view>
+</view>
