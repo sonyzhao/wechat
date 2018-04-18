@@ -1,0 +1,37 @@
+<view>
+  <text class="text">精品推荐</text>
+   <view class="book-all">
+       <view class="book">
+            <image class='book-picture' src='../../../images/2.png'></image>
+            <view class='book-info'>
+            <text class='book-title'>小猪佩奇</text>
+            <text class='book-money'>￥66</text>
+            <text class='book-other'>仅剩10件</text>
+            </view>  
+       </view>
+       <view class="book">
+            <image class='book-picture' src='../../../images/2.png'></image>
+            <view class='book-info'>
+            <text class='book-title'>小猪佩奇</text>
+            <text class='book-money'>￥66</text>
+            <text class='book-other'>仅剩10件</text>
+            </view>  
+       </view>
+       <view class="book">
+            <image class='book-picture' src='../../../images/2.png'></image>
+            <view class='book-info'>
+            <text class='book-title'>小猪佩奇</text>
+            <text class='book-money'>￥66</text>
+            <text class='book-other'>仅剩10件</text>
+            </view>  
+       </view>
+       <view class="book">
+            <image class='book-picture' src='../../../images/2.png'></image>
+            <view class='book-info'>
+            <text class='book-title'>小猪佩奇</text>
+            <text class='book-money'>￥66</text>
+            <text class='book-other'>仅剩10件</text>
+            </view>  
+       </view>
+    </view>   
+</view>

@@ -1,0 +1,32 @@
+<form bindsubmit="formSubmit" bindreset="formReset">
+  <view  class="titlestyle">
+    <text class="title">此处显示个人信息，公告等，信息待定，</text>
+  </view>
+  <view class="information">
+		 <view class="input-table">
+          <text class="incontent"></text>
+		      <text class="input"> : </text>
+		      <text class="input-content" type="text"readonly></text>
+		</view>
+    <view class="input-table">
+          <text class="incontent"></text>
+		      <text class="input"> : </text>
+		      <text class="input-content" type="text" readonly></text>
+		</view>
+    <view class="input-table">
+          <text class="incontent"></text>
+		      <text class="input"> : </text>
+		      <text class="input-content" type="text" readonly></text>
+		</view>
+    <view class="input-table">
+          <text class="incontent"></text>
+		      <text class="input"> : </text>
+		      <text class="input-content" type="text" readonly></text>
+		</view>
+    <view class="input-table">
+          <text class="incontent"></text>
+		      <text class="input"> : </text>
+		      <text class="input-content" type="text" readonly></text>
+		</view>
+  </view>
+</form>

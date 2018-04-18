@@ -1,0 +1,43 @@
+.text{
+  font-size: 50rpx;
+  margin-left: 35%;
+}
+.book{
+  display: flex;
+  flex-direction: row;
+  height: 250rpx;
+  width: 100%;
+  padding: 0;
+  border-top: 1rpx solid lightgrey;
+}
+.book-picture{
+  display: flex;
+  flex-direction: row;
+  margin-top: 15rpx;
+  margin-bottom: 15rpx;
+  margin-left: 20rpx;
+  padding: 0;
+  height: 220rpx;
+  width: 35%;
+  border: 1rpx solid lightgrey;
+}
+.book-info{
+  margin-left: 20rpx;
+  margin-top: 30rpx;
+}
+.book-title{
+  display: flex;
+  flex-direction: row;
+  height: 125rpx;
+}
+.book-money{
+ display: flex;
+ flex-direction: column;
+ color: red;
+}
+.book-other{
+  display: flex;
+  flex-direction: column;
+  font-size: 25rpx;
+  color: lightgrey;
+}

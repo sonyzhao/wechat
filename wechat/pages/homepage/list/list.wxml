@@ -1,0 +1,13 @@
+<view>
+  <text class="text">搜索结果显示</text>
+   <view class="text-all">
+       <view class="book-picture"></view>
+       <view class="book-picture"></view>
+       <view class="book-picture"></view>
+       <view class="book-picture"></view>
+       <view class="book-picture"></view>
+       <view class="book-picture"></view>
+       <view class="book-picture"></view>
+       <view class="book-picture"></view>
+  </view>
+</view>

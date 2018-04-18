@@ -1,0 +1,16 @@
+.text{
+  font-size: 50rpx;
+  margin-left: 130rpx;
+}
+.text-all{
+  color: green;
+  font-size: 12rpx;
+
+}.book-picture{
+  display: flex;
+  flex-direction: row;
+  height: 250rpx;
+  width: 90%;
+  background-color: pink;
+  margin: 40rpx; 
+}
